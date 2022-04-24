@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.clock{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+.clock-img img{
+    width: 400px;
+    height: 400px;
+}
+.clock-img{
+    position: absolute;
+    background: none;
+    
+}
+.hours{
+    height: 400px;
+    background: none;
+    animation: Hours 720s infinite ;
+}
+.seccond{
+    height: 400px;
+    transform: rotate(50deg);
+    background: none;
+    position: relative;
+    top: -400px;
+    animation: Seccond 60s infinite;
+}
+
+.circle{
+    font-size: 25px;
+    position: absolute;
+    top:188px;
+    left: 190px;
+    background: none;
+    
+}
+@keyframes Hours {
+    0% {transform: rotate(0deg);}
+    8% {transform: rotate(30deg);}
+    16% {transform: rotate(60deg);}
+    24% {transform: rotate(90deg);}
+    32% {transform: rotate(120deg);}
+    40% {transform: rotate(150deg);}
+    48% {transform: rotate(180deg);}
+    56% {transform: rotate(210deg);}
+    64% {transform: rotate(240deg);}
+    72% {transform: rotate(270deg);}
+    80% {transform: rotate(300deg);}
+    88% {transform: rotate(330deg);}
+    100% {transform: rotate(360deg);}
+
+    
+}
+@keyframes Seccond {
+    0% {transform: rotate(0deg);}
+    1.6% {transform: rotate(6deg);}
+    3.2% {transform: rotate(12deg);}
+    4.8% {transform: rotate(18deg);}
+    6.4% {transform: rotate(24deg);}
+    8% {transform: rotate(30deg);}
+    9.6% {transform: rotate(36deg);}
+    11.2% {transform: rotate(42deg);}
+    12.8% {transform: rotate(48deg);}
+    14.4% {transform: rotate(54deg);}
+
+    16% {transform: rotate(60deg);}
+    17.6% {transform: rotate(66deg);}
+    19.2% {transform: rotate(72deg);}
+    20.8% {transform: rotate(78deg);}
+    22.4% {transform: rotate(84deg);}
+    24% {transform: rotate(90deg);}
+    25.6% {transform: rotate(96deg);}
+    27.2% {transform: rotate(102deg);}
+    28.8% {transform: rotate(108deg);}
+    30.4% {transform: rotate(114deg);}
+
+    32% {transform: rotate(120deg);}
+    33.6% {transform: rotate(126deg);}
+    35.2% {transform: rotate(132deg);}
+    36.8% {transform: rotate(138deg);}
+    38.4% {transform: rotate(144deg);}
+    40% {transform: rotate(150deg);}
+    41.6% {transform: rotate(156deg);}
+    43.2% {transform: rotate(162deg);}
+    44.8% {transform: rotate(168deg);}
+    46.4% {transform: rotate(174deg);}
+
+    48% {transform: rotate(180deg);}
+    49.6% {transform: rotate(186deg);}
+    51.2% {transform: rotate(192deg);}
+    52.8% {transform: rotate(198deg);}
+    54.4% {transform: rotate(204deg);}
+    56% {transform: rotate(210deg);}
+    57.6% {transform: rotate(216deg);}
+    59.2% {transform: rotate(222deg);}
+    60.8% {transform: rotate(228deg);}
+    62.4% {transform: rotate(234deg);}
+
+    64% {transform: rotate(240deg);}
+    65.6% {transform: rotate(246deg);}
+    67.2% {transform: rotate(252deg);}
+    68.8% {transform: rotate(258deg);}
+    70.4% {transform: rotate(264deg);}
+    72% {transform: rotate(270deg);}
+    73.6% {transform: rotate(276deg);}
+    75.2% {transform: rotate(282deg);}
+    76.8% {transform: rotate(288deg);}
+    78.4% {transform: rotate(294deg);}
+
+    80% {transform: rotate(300deg);}
+    81.6% {transform: rotate(306deg);}
+    83.2% {transform: rotate(312deg);}
+    84.8% {transform: rotate(318deg);}
+    86.4% {transform: rotate(324deg);}
+    88% {transform: rotate(330deg);}
+    89.6% {transform: rotate(336deg);}
+    91.2% {transform: rotate(342deg);}
+    92.8% {transform: rotate(348deg);}
+    94.4% {transform: rotate(354deg);}
+
+    100% {transform: rotate(360deg);}
+
+    
+}
+.hours i{
+    position: absolute;
+    background: none;
+    font-size: 120px;
+    top: 80px;
+    left: 165px;
+    
+}
+
+.seccond i{
+    position: absolute;
+    background: none;
+    font-size: 80px;
+    top: 120px;
+    left: 178px;
+}

@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.anime-element{
+    top: 50%;
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: anime 3s infinite;
+}
+
+p{
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 43%;
+    animation: text 3s infinite;
+}
+
+
+
+@keyframes anime{
+    0% {left: 2%; border-radius: 50%;}
+    /* 10%{left: 4%; border-radius: 45%;}
+    20%{left: 6%; border-radius: 40%;}
+    30%{left: 10%; border-radius: 35%;}
+    40%{left: 12%; border-radius: 30%;}
+    50%{left: 14%; border-radius: 25%;}
+    60%{left: 16%; border-radius: 20%;}
+    70%{left: 18%; border-radius: 15%;}
+    80%{left: 20%; border-radius: 10%;}
+    90%{left: 22%; border-radius: 5%;} */
+    100%{left: 24%; border-radius: 0%;height: 5px ;width: 500px; }    
+}
+
+@keyframes text {
+    0%{opacity: 0; left: -100px; color: black;}
+    100%{opacity: 1; left: 24%; color: blue;}
+}
